@@ -1,0 +1,16 @@
+_usersList:
+    resource: "@SiteMobileBundle/Controller/Modules/Users/ListController.php"
+    type:     annotation
+    prefix:   /usersList
+
+_userData:
+    resource: "@SiteMobileBundle/Controller/Modules/Users/DataController.php"
+    type:     annotation
+    prefix:   /userData
+
+_user:
+    resource: "@SiteMobileBundle/Controller/Modules/Users/UserController.php"
+    type:     annotation
+    prefix:   /user
+    requirements:
+        _method:    POST

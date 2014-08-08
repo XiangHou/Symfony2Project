@@ -1,0 +1,2 @@
+_users:
+    resource: "@SiteMobileBundle/Resources/config/routing.yml"

@@ -1,0 +1,35 @@
+<?php
+namespace Site\StoreBundle\Document;
+
+use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;
+
+/**
+ * @MongoDB\Document
+ */
+class Users
+{
+    /**
+     * @MongoDB\Id
+     */
+    protected $id;
+
+    /**
+     * @MongoDB\String
+     */
+    protected $name;
+
+    /**
+     * @MongoDB\Int
+     */
+    protected $age;
+
+    /**
+     * @MongoDB\String
+     */
+    protected $language;
+
+    /**
+     * @MongoDB\String
+     */
+    protected $password;
+}
